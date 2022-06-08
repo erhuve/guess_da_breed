@@ -1,0 +1,13 @@
+[package]
+name = "guess_da_breed"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+reqwest = { version = "0.11.10", features = ["json"]}
+json = "0.12.4"
+tokio = { version = "1.19.2", features = ["full"] }
+serde = { version = "1.0.137", features = ["derive"] }
